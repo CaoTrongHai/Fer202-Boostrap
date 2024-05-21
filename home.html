@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+  </head>
+  <style>
+    .card {
+      margin-top: 50px;
+    }
+  </style>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Travel</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item"><a class="nav-link" href="#">Trang chủ</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Dịch vụ</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Liên hệ</a></li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Tìm kiếm
+          </button>
+        </form>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="login.html"
+              data-toggle="modal"
+              data-target="#loginModal"
+              >Đăng nhập</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="register.html"
+              data-toggle="modal"
+              data-target="#registerModal"
+              >Đăng kí</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div><img style="width: 100%; height: 550px" src="images/head.jpg" /></div>
+    <h1 style="text-align: center; color: aqua">Tour mới nhất</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-md-4 col-xl-3">
+          <div class="card mb-4" style="width: 100%">
+            <img src="images/brazil.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Brazil</h5>
+              <p class="card-text">
+                Brazil là một quốc gia đa dạng và phong phú, nổi tiếng với những
+                bãi biển đẹp, rừng mưa nhiệt đới, và các thành phố sôi động.
+              </p>
+              <a href="#" class="btn btn-primary">Khám phá</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-xl-3">
+          <div class="card mb-4" style="width: 100%">
+            <img src="images/Vietnam.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">VietNam</h5>
+              <p class="card-text">
+                Việt Nam là điểm đến du lịch hấp dẫn ở Đông Nam Á, nổi tiếng
+                cảnh quan thiên nhiên đa dạng, văn hóa phong phú và ẩm thực độc
+                đáo.
+              </p>
+              <a href="#" class="btn btn-primary">Khám phá</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-xl-3">
+          <div class="card mb-4" style="width: 100%">
+            <img src="images/Japan.webp" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Japan</h5>
+              <p class="card-text">
+                Nhật Bản là quốc gia có sự pha trộn hoàn hảo giữa truyền thống
+                và hiện đại, với nhiều điểm đến du lịch hấp dẫn và phong phú
+              </p>
+              <a href="#" class="btn btn-primary">Khám phá</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-xl-3">
+          <div class="card mb-4" style="width: 100%">
+            <img
+              src="images/India.webp "
+              class="card-img-top"
+              style="height: 180px"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">India</h5>
+              <p class="card-text">
+                Du lịch ấn tượng ở Ấn Độ thường được đánh giá cao vì văn hóa lâu
+                đời, kiến trúc độc đáo và cảnh quan thiên nhiên đa dạng.
+              </p>
+              <a href="#" class="btn btn-primary">Khám phá</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container my-5">
+      <div class="row">
+        <div class="col text-center">
+          <h2 class="mb-4">Câu hỏi thường gặp</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="faq">
+            <h5 class="mb-3">Làm thế nào để đặt tour du lịch?</h5>
+            <p>
+              Bạn có thể đặt tour trực tuyến qua trang web của chúng tôi hoặc
+              liên hệ trực tiếp với nhân viên tư vấn.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="faq">
+            <h5 class="mb-3">Phương thức thanh toán như thế nào?</h5>
+            <p>
+              Chúng tôi chấp nhận thanh toán qua thẻ tín dụng, chuyển khoản ngân
+              hàng và tiền mặt.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="bg-primary text-white">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-4">
+            <h5 class="mb-3">Thông tin liên hệ</h5>
+            <p class="mb-2">
+              <i class="fas fa-map-marker-alt"></i> Địa chỉ: 123 Đường ABC,
+              Thành phố XYZ
+            </p>
+            <p class="mb-2">
+              <i class="fas fa-envelope"></i> Email: tronghaipdp@gmail.com
+            </p>
+            <p><i class="fas fa-phone"></i> Điện thoại: 0977652003</p>
+          </div>
+          <div class="col-md-4">
+            <h5 class="mb-3">Liên kết nhanh</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a href="#" class="text-white"
+                  ><i class="fab fa-facebook-f mr-2"></i>Facebook</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#" class="text-white"
+                  ><i class="fab fa-twitter mr-2"></i>Twitter</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white"
+                  ><i class="fab fa-instagram mr-2"></i>Instagram</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h5 class="mb-3">Theo dõi chúng tôi</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a href="#" class="text-white"
+                  ><i class="fab fa-facebook-f mr-2"></i>Facebook</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#" class="text-white"
+                  ><i class="fab fa-twitter mr-2"></i>Twitter</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white"
+                  ><i class="fab fa-instagram mr-2"></i>Instagram</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col text-center">
+            <p>&copy; 2024 Travel. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
